@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 # === Load Dataset ===
 @st.cache_data
 def load_data():
-    df = pd.read_csv("ford.csv")
+    df = pd.read_csv("audi.csv")
     return df
 
 # === Train Model ===
